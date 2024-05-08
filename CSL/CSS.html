@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CSSL</title>
+    <link rel="stylesheet" href="GOD.css" />
+  </head>
+  <body>
+    <h1><em>Universal Selector</em></h1>
+    <p>
+      The <em>universal selector,</em> denoted by an asterisk (*), matches every
+      single element on the page. The universal selector may be omitted if other
+      conditions exist on the element. This selector is often used to remove the
+      default margins and paddings from the elements for quick testing purpose.
+      Let's try out the following example to understand how it basically works:
+    </p>
+    <div id="T">
+      Inline styles are used to apply the unique style rules to an element by
+      putting the CSS rules directly into the start tag. It can be attached to
+      an element using the style attribute. The style attribute includes a
+      series of CSS property and value pairs. Each "property: value" pair is
+      separated by a semicolon (;), just as you would write into an embedded or
+      external style sheets. But it needs to be all in one line i.e. no line
+      break after the semicolon, as shown here
+    </div>
+    <h2>CSS Selectors</h2>
+    <p>
+      A CSS selector is a pattern to match the elements on a web page. The style
+      rules associated with that selector will be applied to the elements that
+      match the selector pattern. Selectors are one of the most important
+      aspects of CSS as they allow you to target specific elements on your web
+      page in various ways so that they can be styled. Several types of
+      selectors are available in CSS, let's take a closer look at them:
+    </p>
+    <ul class="menu">
+      <a>An Element type selector</a>
+      matches all instance of the element in the document with the corresponding
+      <li>
+        element type name. Let's try out an example to see how it actually
+        works: p { color: blue; }
+      </li>
+      The style rules inside the p selector will be applied on every element (or
+      paragraph) in the document and color it blue, regardless of their position
+      in the document tree
+    </ul>
+    <p>
+      Adjacent Sibling Selectors The adjacent sibling selectors can be used to
+      select sibling elements (i.e. elements at the same level). This selector
+      has the syntax like: E1 + E2, where E2 is the target of the selector. The
+      selector h1 + p in the following example will select the p elements only
+      <li>
+        if both the h1 and p elements share the same parent in the document tree
+        and h1 is immediately precedes the p element. That means only those
+      </li>
+      paragraphs that come immediately after each h1 heading will have the
+      associated style rules. Let's see how this selector actually works
+    </p>
+  </body>
+</html>

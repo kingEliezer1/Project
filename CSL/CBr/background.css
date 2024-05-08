@@ -1,0 +1,15 @@
+body {
+  background-image: url("/Images/B.jpg");
+  background-repeat: no-repeat;
+  background-color: rgb(173, 243, 196);
+  background-position: center;
+  background-position: 50% 100%;
+  background-attachment: fixed;
+}
+/* body {
+  background-color: #f0e68c;
+  background-image: url(/Images/B.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: 250px 25px;
+} */

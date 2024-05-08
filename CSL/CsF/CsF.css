@@ -1,0 +1,24 @@
+/* html {
+  font-size: calc(1em + 1vw);
+} */
+body {
+  background-color: aquamarine;
+  font-family: serif, sans-serif;
+}
+p em {
+  color: burlywood;
+}
+img {
+  position: fixed;
+  padding: 24px;
+}
+.normal {
+  padding-top: 133px;
+  font-style: italic;
+}
+/* h1 {
+  font-size: 3rem;
+} */
+/* p {
+  font-variant: small-caps;
+} */

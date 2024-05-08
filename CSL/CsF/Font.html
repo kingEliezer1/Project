@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Font</title>
+    <link rel="stylesheet" href="CsF.css" />
+  </head>
+  <body>
+    <h1>CSS Fonts</h1>
+    <h2>Styling Fonts with CSS</h2>
+    <p>
+      Choosing the right font and style is very crucial for the readability of
+      text on a page. CSS provide several properties for styling the font of the
+      text, including changing their face, controlling their size and boldness,
+      managing variant, and so on. The font properties are:
+      <em>font-family,</em> <em>font-style,</em> <em>font-weight,</em>
+      <em>font-size,</em> and <em>font-variant.</em> Let's discuss each of these
+      font properties one by one in more detail.
+    </p>
+    <h1>Font Family</h1>
+    <p>
+      The font-family property is used to specify the font to be used to render
+      the text. This property can hold several comma-separated font names as a
+      fallback system, so that if the first font is not available on the user's
+      system, browser tries to use the second one, and so on. Hence, list the
+      font that you want first, then any fonts that might fill in for the first
+      if it is not available. You should end the list with a generic font family
+      which are five — serif, sans-serif, monospace, cursive and fantasy. A
+      typical font family declaration might look like this: body { font-family:
+      Arial, Helvetica, sans-serif; }
+    </p>
+    <p>
+      The most common font families used in web design are serif and sans-serif,
+      because they are more suitable for reading. While monospace fonts are
+      commonly used to display code, because in this typeface each letter takes
+      up the same space which looks like typewritten text. The cursive fonts
+      look like cursive writing or handwriting. The fantasy font represents
+      artistic font, but they're not used widely because of poor availability
+      across the operating systems.
+    </p>
+    <h2>Difference Between Serif and Sans-serif Fonts</h2>
+    Serif fonts have small line or stroke at the extremities of characters,
+    whereas sans-serif fonts are straighter and do not have these small strokes.
+    See the following illustration
+    <img src="/Images/tt.jpg" alt="Text Images" />
+
+    <p class="normal">
+      Font Style The font-style property is used to set the font face style for
+      the text content of an element. The font style can be normal, italic or
+      oblique. The default value is normal. Let's try out the following example
+      to understand how it basically works: p.normal { font-style : normal; }
+      p.italic { font-style : italic; } p.oblique { font-style : oblique; }
+    </p>
+  </body>
+</html>
